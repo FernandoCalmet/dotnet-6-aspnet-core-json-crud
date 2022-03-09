@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstname": "fernando",
+      "lastname": "calmet",
+      "age": 32,
+      "verified": true
+    },
+    {
+      "id": 2,
+      "firstname": "john",
+      "lastname": "doe",
+      "age": 33,
+      "verified": true
+    },
+    {
+      "id": 3,
+      "firstname": "lisa",
+      "lastname": "simpson",
+      "age": 20,
+      "verified": false
+    }
+  ]
+}

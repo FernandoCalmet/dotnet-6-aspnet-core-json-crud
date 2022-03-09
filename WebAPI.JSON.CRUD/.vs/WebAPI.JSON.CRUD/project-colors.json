@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "87243420-4f21-4055-8299-7c879b02536f": {
+      "ProjectGuid": "87243420-4f21-4055-8299-7c879b02536f",
+      "DisplayName": "WebAPI.JSON.CRUD",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
