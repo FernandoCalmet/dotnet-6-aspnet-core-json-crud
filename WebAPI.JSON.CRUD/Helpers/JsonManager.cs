@@ -32,7 +32,6 @@ public static class JsonManager
 
     public static object Select(this object data, string table = "")
     {
-
         if (data != null)
         {
             try
@@ -68,7 +67,6 @@ public static class JsonManager
         {
             throw new Exception("The preloaded data is null");
         }
-
     }
 
     public static void Add(this object data, string table, object newData)

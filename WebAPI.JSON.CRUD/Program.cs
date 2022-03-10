@@ -23,17 +23,17 @@ string fileName = "users.json";
 string path = Path.Combine(Environment.CurrentDirectory, @"Data\", fileName);
 var dbUsers = Database(path);
 
-app.MapGet("/", () => "Hello World! 🔥");
+app.MapGet("/", () => "Hello World! 🔥" + path);
 
 app.MapGet("/users", () =>
 {
-    dbUsers.Select("users").ToJsonString();
+    return dbUsers.Select("users").ToJsonString();
 })
 .WithName("GetUsers");
 
 app.MapGet("/users/{id}", (int id) =>
 {
-    dbUsers.Select("users").Where("id", id).ToJsonString();
+    return dbUsers.Select("users").Where("id", id).ToJsonString();
 })
 .WithName("GetUserById");
 
