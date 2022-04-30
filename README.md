@@ -21,7 +21,7 @@
 Clonar el repositorio.
 
 ```bash
-gh repo clone FernandoCalmet/DOTNET-6-ASPNET-Core-JSON-CRUD
+gh repo clone FernandoCalmet/dotnet-6-aspnet-core-json-crud
 ```
 
 ### EJECUTAR
